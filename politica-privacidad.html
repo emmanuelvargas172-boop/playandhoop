@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — Play & Hoop</title>
+<meta name="description" content="Política de privacidad y tratamiento de datos personales de Play and Hoop SAS, Floridablanca, Santander.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FAF3E7;
+    --cream-dim:#F1E7D6;
+    --navy:#14168C;
+    --navy-deep:#0A0B52;
+    --orange:#F2860F;
+    --orange-light:#FFA94D;
+    --ink:#181A2E;
+    --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Nunito',sans-serif;background:var(--cream);color:var(--ink);}
+  a{text-decoration:none;color:inherit;}
+  :focus-visible{outline:3px solid var(--orange);outline-offset:3px;}
+
+  /* HEADER */
+  header{background:var(--cream);border-bottom:3px solid var(--ink);padding:14px 24px;}
+  .nav-simple{max-width:860px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-mark{display:flex;align-items:center;gap:10px;}
+  .logo-img{height:46px;width:46px;object-fit:cover;border-radius:8px;border:2px solid var(--ink);}
+  .logo-word{font-family:'Anton',sans-serif;font-size:1.05rem;letter-spacing:0.5px;}
+  .logo-word b{color:var(--orange);}
+  .back-link{font-family:'Anton',sans-serif;font-size:0.82rem;letter-spacing:0.5px;background:var(--navy);color:var(--cream);padding:10px 18px;border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);white-space:nowrap;transition:transform .15s ease,box-shadow .15s ease;}
+  .back-link:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink);}
+
+  /* HERO de política */
+  .policy-hero{background:var(--navy-deep);color:var(--cream);padding:60px 24px 50px;text-align:center;}
+  .policy-hero .eyebrow{font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:0.72rem;color:var(--orange-light);display:block;margin-bottom:14px;}
+  .policy-hero h1{font-family:'Anton',sans-serif;font-size:clamp(2rem,5vw,3.2rem);letter-spacing:0.5px;text-transform:uppercase;line-height:0.95;}
+  .policy-hero .update{margin-top:18px;font-size:0.85rem;font-weight:700;color:rgba(250,243,231,0.65);}
+
+  /* CONTENIDO */
+  .policy-body{max-width:860px;margin:0 auto;padding:60px 24px 100px;}
+  /* PDF doc box */
+  .policy-doc-box{display:flex;align-items:center;gap:18px;background:var(--white);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--navy);padding:20px 24px;margin-bottom:34px;flex-wrap:wrap;}
+  .policy-doc-icon{width:48px;height:48px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .policy-doc-icon svg{width:26px;height:26px;stroke:var(--cream);}
+  .policy-doc-text{flex:1;min-width:180px;display:flex;flex-direction:column;gap:3px;}
+  .policy-doc-text strong{font-size:0.72rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--orange);}
+  .policy-doc-text span{font-size:0.88rem;font-weight:700;color:var(--ink);}
+  .policy-doc-btn{font-family:'Anton',sans-serif;font-size:0.85rem;letter-spacing:0.5px;background:var(--orange);color:var(--white);padding:12px 20px;border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);white-space:nowrap;transition:transform .15s ease,box-shadow .15s ease;}
+  .policy-doc-btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink);}
+  .policy-intro{background:var(--navy);color:var(--cream);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--orange);padding:28px 32px;margin-bottom:50px;}
+  .policy-intro p{font-size:0.95rem;font-weight:700;line-height:1.6;color:var(--cream-dim);}
+  .policy-section{margin-bottom:40px;}
+  .policy-section h2{font-family:'Anton',sans-serif;font-size:1.15rem;letter-spacing:0.5px;text-transform:uppercase;color:var(--navy);border-left:4px solid var(--orange);padding-left:14px;margin-bottom:14px;line-height:1.2;}
+  .policy-section p{font-size:0.95rem;font-weight:600;line-height:1.7;color:#3a3a4a;}
+  .policy-divider{border:none;border-top:2px solid var(--cream-dim);margin:40px 0;}
+
+  /* CONTACTO box */
+  .policy-contact{background:var(--cream-dim);border:3px solid var(--ink);padding:28px 32px;margin-top:50px;box-shadow:6px 6px 0 var(--navy);}
+  .policy-contact h3{font-family:'Anton',sans-serif;font-size:1.1rem;letter-spacing:0.5px;margin-bottom:14px;color:var(--navy);}
+  .policy-contact p{font-size:0.9rem;font-weight:700;line-height:1.6;}
+  .policy-contact a{color:var(--orange);font-weight:800;}
+
+  /* FOOTER */
+  footer{background:var(--ink);color:rgba(250,243,231,0.6);text-align:center;padding:26px 24px;font-size:0.8rem;}
+  footer a{color:var(--orange-light);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-simple">
+    <a href="index.html" class="logo-mark" aria-label="Volver al inicio de Play and Hoop">
+      <img src="images/logo-ph.jpg" alt="Play and Hoop" class="logo-img">
+      <span class="logo-word">PLAY <b>&</b> HOOP</span>
+    </a>
+    <a href="index.html" class="back-link">← Volver al inicio</a>
+  </div>
+</header>
+
+<section class="policy-hero">
+  <span class="eyebrow">Play and Hoop SAS · Colombia</span>
+  <h1>Política de Privacidad</h1>
+  <p class="update">Última actualización: 10 de mayo de 2026</p>
+</section>
+
+<main class="policy-body">
+
+  <div class="policy-doc-box">
+    <div class="policy-doc-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+    </div>
+    <div class="policy-doc-text">
+      <strong>Documento oficial · PDF</strong>
+      <span>Política de Privacidad y Tratamiento de Datos Personales — Play and Hoop SAS</span>
+    </div>
+    <a href="docs/politica-privacidad.pdf" target="_blank" rel="noopener" class="policy-doc-btn" aria-label="Ver documento completo de política de privacidad en PDF">Ver documento completo</a>
+  </div>
+
+  <div class="policy-intro">
+    <p>La presente Política de Privacidad regula el tratamiento de los datos personales recolectados por <strong>Play and Hoop SAS</strong>, sociedad legalmente constituida en Colombia y domiciliada en Floridablanca, Santander. La empresa actúa en calidad de responsable del tratamiento conforme a la Ley 1581 de 2012, el Decreto 1377 de 2013 y demás normas complementarias sobre protección de datos personales y el derecho constitucional al habeas data.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>1. Identificación del Responsable del Tratamiento</h2>
+    <p>Para efectos de atención de solicitudes, consultas o reclamos relacionados con información personal, los titulares podrán comunicarse a través de los canales oficiales de contacto establecidos por la empresa: correo electrónico <strong>playandhoop@gmail.com</strong> o teléfono <strong>+57 322 291 1735</strong>.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>2. Alcance de la Política</h2>
+    <p>La presente política aplica a toda la información personal registrada en las bases de datos físicas o digitales administradas por Play and Hoop S.A.S., correspondiente a clientes, usuarios, colaboradores, proveedores, contratistas, aliados comerciales y demás personas naturales cuyos datos sean objeto de tratamiento por parte de la compañía en desarrollo de sus actividades comerciales, deportivas, recreativas y administrativas.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>3. Marco Legal y Principios Aplicables</h2>
+    <p>El tratamiento de datos personales realizado por Play and Hoop S.A.S. se rige por los principios establecidos en la legislación colombiana, especialmente los principios de legalidad, finalidad, libertad, transparencia, veracidad, calidad, seguridad, confidencialidad y acceso restringido. La empresa garantiza que toda recolección, almacenamiento, uso, circulación, transmisión o supresión de información personal será realizada conforme a las disposiciones legales vigentes y únicamente para finalidades legítimas previamente informadas al titular.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>4. Información Recolectada</h2>
+    <p>Play and Hoop S.A.S. podrá recolectar datos personales tales como nombres y apellidos, documentos de identificación, direcciones de contacto, números telefónicos, correos electrónicos, información relacionada con membresías, reservas, pagos, actividades deportivas y recreativas, registros audiovisuales autorizados y demás información necesaria para la adecuada prestación de sus servicios. En determinados casos, y conforme a la normatividad vigente, podrán ser tratados datos sensibles o información correspondiente a menores de edad, siempre bajo autorización previa y respetando el interés superior del menor y sus derechos fundamentales.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>5. Finalidad del Tratamiento de los Datos</h2>
+    <p>Los datos personales recolectados serán utilizados para gestionar reservas, membresías, eventos, alquileres de espacios deportivos y actividades recreativas; ejecutar relaciones precontractuales, contractuales y poscontractuales; realizar procesos administrativos, contables y de facturación; brindar atención al cliente; desarrollar actividades de mercadeo, publicidad y fidelización; enviar información institucional y promocional; realizar encuestas de satisfacción; garantizar la seguridad dentro de las instalaciones; efectuar procesos internos de control y calidad; y cumplir obligaciones legales, regulatorias y contractuales aplicables a la empresa. La información únicamente será utilizada para las finalidades autorizadas por el titular o permitidas por la ley.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>6. Base Legal para el Tratamiento</h2>
+    <p>El tratamiento de los datos personales se fundamenta en el consentimiento previo, expreso e informado otorgado por el titular, así como en la necesidad de ejecutar contratos, cumplir obligaciones legales o desarrollar actividades legítimas relacionadas con el objeto social de Play and Hoop S.A.S. La autorización podrá obtenerse mediante medios físicos, electrónicos, digitales o cualquier mecanismo que permita conservar prueba de su otorgamiento conforme a las exigencias legales.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>7. Derechos de los Titulares</h2>
+    <p>Los titulares de los datos personales tienen derecho a conocer, actualizar, rectificar y solicitar la supresión de la información suministrada cuando ello sea procedente conforme a la ley. Igualmente, podrán revocar la autorización otorgada para el tratamiento de sus datos, solicitar prueba de dicha autorización, acceder gratuitamente a su información personal y presentar consultas o reclamos relacionados con el tratamiento de sus datos. También tendrán derecho a oponerse al tratamiento en los casos previstos legalmente. El ejercicio de estos derechos podrá realizarse directamente por el titular, por su representante legal o por las personas autorizadas conforme a la normativa vigente.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>8. Tratamiento de Datos de Menores de Edad</h2>
+    <p>El tratamiento de datos personales de menores de edad se realizará únicamente en casos excepcionales relacionados con la prestación de servicios deportivos, recreativos o administrativos ofrecidos por la empresa. En todo caso, Play and Hoop S.A.S. garantizará el respeto del interés superior del menor y sus derechos fundamentales, requiriendo siempre autorización previa y expresa del padre, madre o representante legal correspondiente.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>9. Deberes de Play and Hoop S.A.S.</h2>
+    <p>Play and Hoop S.A.S. se compromete a solicitar autorización para el tratamiento de datos personales, informar de manera clara las finalidades del tratamiento, conservar prueba de las autorizaciones otorgadas, garantizar condiciones adecuadas de seguridad y confidencialidad, actualizar la información cuando sea necesario y tramitar oportunamente las consultas y reclamos presentados por los titulares. Asimismo, la empresa velará por el cumplimiento de las obligaciones legales tanto cuando actúe directamente como responsable del tratamiento, como cuando intervenga en calidad de encargado o delegue determinadas actividades a terceros autorizados.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>10. Autorización para el Tratamiento</h2>
+    <p>La autorización para el tratamiento de datos personales será obtenida previamente a la recolección de la información, salvo las excepciones previstas en la legislación colombiana. Dicha autorización podrá otorgarse mediante documentos físicos, formularios electrónicos, plataformas digitales, mensajes de datos o cualquier otro mecanismo válido que permita demostrar la manifestación de voluntad del titular.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>11. Revocatoria y Supresión de Datos</h2>
+    <p>Los titulares podrán solicitar en cualquier momento la revocatoria total o parcial de la autorización otorgada o la supresión de sus datos personales, siempre que no exista una obligación legal, contractual o un interés legítimo que impida la eliminación de la información. La solicitud será evaluada conforme a las disposiciones legales aplicables y a las responsabilidades administrativas y contractuales de la empresa.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>12. Transferencia y Transmisión de Datos</h2>
+    <p>Play and Hoop S.A.S. podrá compartir, transmitir o transferir información personal con proveedores, aliados comerciales, operadores tecnológicos, empresas vinculadas o terceros que apoyen el desarrollo de actividades administrativas, operativas o comerciales, incluso a nivel nacional o internacional, garantizando en todo momento el cumplimiento de las disposiciones legales sobre protección de datos personales y las condiciones adecuadas de seguridad y confidencialidad.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>13. Medidas de Seguridad</h2>
+    <p>La empresa implementa medidas técnicas, humanas y administrativas razonables para proteger la información personal contra pérdida, acceso no autorizado, uso indebido, alteración, divulgación o destrucción. El acceso a la información se encuentra restringido únicamente al personal autorizado y a terceros que deban conocerla en desarrollo de funciones legítimas y bajo obligaciones de confidencialidad.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>14. Procedimiento para Consultas y Reclamos</h2>
+    <p>Los titulares podrán presentar consultas, solicitudes o reclamos relacionados con el tratamiento de sus datos personales mediante los canales oficiales de atención establecidos por la empresa. Play and Hoop S.A.S. dará respuesta a las consultas dentro de un término máximo de <strong>diez (10) días hábiles</strong> y a los reclamos dentro de un término máximo de <strong>quince (15) días hábiles</strong>, conforme a lo dispuesto en la Ley 1581 de 2012.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>15. Conservación de la Información</h2>
+    <p>Los datos personales serán conservados únicamente durante el tiempo necesario para cumplir las finalidades para las cuales fueron recolectados y para atender obligaciones legales, fiscales, contables, administrativas o contractuales. Una vez finalice la necesidad del tratamiento, la información podrá ser eliminada, anonimizada o archivada conforme a los procedimientos internos y las disposiciones legales vigentes.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>16. Registro Nacional de Bases de Datos</h2>
+    <p>Play and Hoop S.A.S. podrá registrar sus bases de datos ante el Registro Nacional de Bases de Datos administrado por la autoridad competente, cuando ello resulte obligatorio conforme a la legislación colombiana aplicable.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>17. Modificaciones de la Política</h2>
+    <p>Play and Hoop S.A.S. se reserva el derecho de modificar, actualizar o reemplazar la presente Política de Privacidad en cualquier momento para adaptarla a cambios normativos, regulatorios, jurisprudenciales o internos. Las modificaciones sustanciales serán informadas oportunamente a través de los canales oficiales de comunicación de la empresa.</p>
+  </div>
+
+  <hr class="policy-divider">
+
+  <div class="policy-section">
+    <h2>18. Vigencia</h2>
+    <p>La presente Política de Privacidad entra en vigencia a partir de la fecha de su publicación y permanecerá aplicable hasta que sea modificada o sustituida por una nueva versión oficialmente publicada por Play and Hoop S.A.S.</p>
+  </div>
+
+  <div class="policy-contact">
+    <h3>Canales de Contacto</h3>
+    <p>
+      Para consultas, solicitudes o reclamos sobre el tratamiento de sus datos personales:<br><br>
+      📧 <a href="mailto:playandhoop@gmail.com">playandhoop@gmail.com</a><br>
+      📞 <a href="tel:+573222911735">+57 322 291 1735</a><br>
+      📍 CC Jumbo El Bosque, Autop. Floridablanca #24-26, Floridablanca, Santander<br><br>
+      Respuesta a consultas: máximo <strong>10 días hábiles</strong><br>
+      Respuesta a reclamos: máximo <strong>15 días hábiles</strong>
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Play &amp; Hoop SAS · Floridablanca, Santander · <a href="index.html">Volver al inicio</a></p>
+</footer>
+
+</body>
+</html>
